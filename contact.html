@@ -1,0 +1,120 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>	
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="renderer" content="webkit">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<meta name="keywords" content=""/>
+	<meta name="description" content=""/>
+	<title>紫鹿技术-联系我们</title>
+
+	<!-- 公共样式、js框架和公共效果  -->
+	<link rel="stylesheet" type="text/css" href="css/style_3.css" />
+	<script type="text/javascript" src="js/jquery.min_3.js"></script>
+	<script type="text/javascript" src="js/style_2.js"></script>	
+	
+</head>
+<body>
+<!-- 头部 header -->
+<div class="header">
+	<div class="w1200">
+		<div class="clear head_top">
+			<a class="fl logo" href="index.html" title="紫鹿技术"><img src="picture/logo_1.png" alt="紫鹿技术"></a>
+			<i class="fl"></i>
+			<div class="fl head_company">
+				<h5>大唐网络控股旗下公司</h5>
+				<h5>狮子猫商学院合作伙伴</h5>
+			</div>
+		</div>
+		<ul class="clear">
+			<li><a href="index.html">首页</a></li>
+			<li><a href="about.html">关于我们</a></li>
+			<li><a href="service.html">服务团队</a></li>
+			<li class="cull"><a href="contact.html">联系我们</a></li>
+			<li><span>0755-32585544</span></li>
+		</ul>
+	</div>
+</div>
+
+<!-- 联系我们 contact -->
+<div class="container head_padding">
+
+	<div class="contact_form">
+		<div class="contact_ma br-all">
+			<div class="contact_back br-all">
+				<form>
+					<div class="contact_xias">
+						<h1>联系我们</h1>
+						<span></span>
+					</div>
+					<div class="contact_biadan">
+						<div class="positire contact_ma20"><input type="text" placeholder="您的姓名"  class="br-all contact_name" /><span class="none name">* 姓名不能为空！</span></div>
+						<div class="positire"><input type="text" placeholder="您的电话"  class="br-all contact_phone" /><span class="none phone">* 电话不能为空！</span></div>
+						<div class="positire"><input type="text" placeholder="您的邮箱"  class="br-all" /></div>
+						<div class="positire"><textarea placeholder="简单描述下您的需求" class="br-all" ></textarea></div>
+					</div>
+					<button type="button" class="br-all" onclick="cntactform()">提 交</button>
+				</form>
+			</div>
+		</div>
+	</div>
+	
+	<div class="contact_bottom">
+		<ul class="w1200 clear">
+			<li>
+				<img src="picture/iphone.png" alt="手机">
+				<p class="contact_p">客服热线</p>
+				<p>0755-32585544</p>
+			</li>
+			<li>
+				<img src="picture/email.png" alt="邮箱">
+				<p class="contact_p">廉政邮箱</p>
+				<p>service@zilu.com</p>
+			</li>
+			<li>
+				<img src="picture/online.png" alt="咨询">
+				<p class="contact_p">在线咨询</p>
+				<p>此处是QQ服务号</p>
+			</li>
+			<li>
+				<img src="picture/addr.png" alt="地址">
+				<p class="contact_p">服务地点</p>
+				<p>深圳市龙华新区人民路恒江大厦11层</p>
+			</li>
+		</ul>
+	</div>
+</div>
+
+<!-- 底部 footer -->
+<div class="footer">
+	<div class="foot_top">
+		<div class="foot_x"></div>
+		<h1>紫鹿技术</h1>
+	</div>
+	<div class="foot_bottom">
+		<img src="picture/ewm_3.png" alt="扫一扫 微信公众号"/>
+		<p>公司地址：深圳市龙华新区人民路与布龙路交汇处恒江大厦11楼</p>
+		<span class="child">电话：0755-32583344</span>
+		<span>邮箱：service@zilu.com</span>
+	</div>
+</div>
+
+<script type="text/javascript">
+function cntactform() {
+	//判断姓名是否等于空
+	if( $(".contact_name").val() == '' ){
+		$(".name").show();
+	}else{
+		$(".name").hide();
+	}
+	//判断电话是否等于空
+	if( $(".contact_phone").val() == '' ){
+		$(".phone").show();
+	}else{
+		$(".phone").hide();
+	}
+}
+</script>
+</body>
+</html>

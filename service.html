@@ -1,0 +1,168 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>	
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="renderer" content="webkit">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<meta name="keywords" content=""/>
+	<meta name="description" content=""/>
+	<title>紫鹿技术-服务团队</title>
+
+	<!-- 公共样式、js框架和公共效果  -->
+	<link rel="stylesheet" type="text/css" href="css/style_2.css" />
+	<script type="text/javascript" src="js/jquery.min_2.js"></script>
+	<script type="text/javascript" src="js/style_2.js"></script>	
+	
+	<!-- 幻灯片插件 -->
+	<script type="text/javascript" src="js/jquery.flexslider-min_1.js"></script>
+	
+	<script type="text/javascript" src="js/jquery.roundabout.min.js"></script>
+	
+</head>
+<body>
+<!-- 头部 header -->
+<div class="header">
+	<div class="w1200">
+		<div class="clear head_top">
+			<a class="fl logo" href="index.html" title="紫鹿技术"><img src="picture/logo_1.png" alt="紫鹿技术"></a>
+			<i class="fl"></i>
+			<div class="fl head_company">
+				<h5>大唐网络控股旗下公司</h5>
+				<h5>狮子猫商学院合作伙伴</h5>
+			</div>
+		</div>
+		<ul class="clear">
+			<li><a href="index.html">首页</a></li>
+			<li><a href="about.html">关于我们</a></li>
+			<li  class="cull"><a href="service.html">服务团队</a></li>
+			<li><a href="contact.html">联系我们</a></li>
+			<li><span>0755-32585544</span></li>
+		</ul>
+	</div>
+</div>
+
+<!-- 首页 index -->
+<div class="container">
+	<div class="service_bg">
+		<div class="service_back">
+			<div class="us_tab">
+				<div class="us_wen">
+					<h2>我们</h2>
+					<p>US</p>
+				</div>
+
+				<!-- 幻灯片 1 -->
+				<div class="slide">
+					<ul class="slides">
+						<li><img src="picture/team1.png" alt=""/></li>
+						<li><img src="picture/team2.png" alt=""/></li>
+					</ul>
+				</div>
+
+			</div>
+			<div class="Small_title">
+				<img src="picture/deng.png" alt="  "/>
+				<h2>案例展示</h2>
+				<span></span>
+			</div>
+			<div class="Small_title js">
+				<img src="picture/deng.png" alt="  "/>
+				<h2>技术提供</h2>
+				<span></span>
+			</div>
+			<div class="technology technology-img">
+				<ul class="technology_ul1">
+					<li class="ul1-li1">
+						<h3>需求整理</h3>
+						<p>客户畅所欲言，罗列出所有的 需求，透过现象分析潜在的需 求，利用自然的语言描述项目 模型，给予客户最满意<br />的需求。</p>
+					</li>
+					<li>
+						<h3>解决方案</h3>
+						<p>商务解决方案，协同办公解决方案，集团门户解决方案，产品推广解决方案。</p>
+					</li>
+				</ul>
+				<ul class="technology_uli">
+					<li class="uli-li1">
+						<h3>产品原型</h3>
+						<p>专业的产品经理，设计出专业的产品原型，交互快、设计快、演示快、上手快。</p>
+					</li>
+					<li>
+						<h3>UI设计</h3>
+						<p>打造高品质专属于本企业的产品视觉设计，让用户第一眼就爱上它。</p>
+					</li>
+					<li class="ul-b">
+						<h3>软件开发</h3>
+						<p>从技术、企业战略、企业资本各方面提供全面的技术服务，帮助中小型企业快速建立属于自己的产品。</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 幻灯片 2 -->
+		<div class="quz_app_b">
+			<span class="quz_x_l"></span>
+			<span class="quz_x_r"></span>
+			<ul class="quz_app_ul">
+				<li>
+					<img src="picture/phone1.png" alt=""/>
+					<h3>去农庄APP1</h3>
+				</li>
+				<li>
+					<img src="picture/phone2.png" alt=""/>
+					<h3>去农庄APP2</h3>
+				</li>
+				<li>
+					<img src="picture/phone3.png" alt=""/>
+					<h3>去农庄APP3</h3>
+				</li>
+			</ul>
+			
+		</div>
+	</div>
+	
+</div>
+
+<!-- 底部 footer -->
+<div class="footer">
+	<div class="foot_top">
+		<div class="foot_x"></div>
+		<h1>紫鹿技术</h1>
+	</div>
+	<div class="foot_bottom">
+		<img src="picture/ewm_2.png" alt="扫一扫 微信公众号"/>
+		<p>公司地址：深圳市龙华新区人民路与布龙路交汇处恒江大厦11楼</p>
+		<span class="child">电话：0755-32583344</span>
+		<span>邮箱：service@zilu.com</span>
+	</div>
+</div>
+<script type="text/javascript">
+//幻灯片插件调用
+$(window).load(function(){
+	$('.slide').flexslider({
+		animation: "slide", 	 // "fade" or "slide"图片变换方式：淡入淡出或者滑动
+		slideshow: true,         //布尔类型，是否自动播放
+		slideshowSpeed: 4500,    //什么秒开始滚
+		animationSpeed: 500,     //设置滚动效果要多少时间
+		directionNav: true, 	 //布尔类型，是否显示左右控制按钮
+		pauseOnHover: true,		 //布尔类型，鼠标移上去是否暂停
+		animationLoop: true,	 //布尔类型，是否循环滚动 循环播放
+	});
+
+	$('.quz_app_ul').roundabout({
+        duration: 700, // 运动速度
+        btnPrev: ".quz_x_r", // 右按钮
+        btnNext: ".quz_x_l", // 左按钮
+        autoplay: true,        // 自动播放
+        autoplayDuration: 4500,// 自动播放的时间
+        minOpacity: 0.4,         //最小的透明度
+        maxOpacity: 1,         //最大的透明度      
+        startingChild: 0,      // 默认的显示第几张图片
+        autoplayPauseOnHover: true, // 鼠标移入元素内是否自动播放，为true不播放，false还自动播放
+        enableDrag: true       // 在移动端可以拖拽播放
+    });
+
+});
+
+</script>
+</body>
+</html>
